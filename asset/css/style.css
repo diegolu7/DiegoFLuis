@@ -440,3 +440,20 @@ footer .content-redes a {
   color: #ffffff;
 
 }
+
+
+/* IR ARRIBA */
+
+.ir-arriba {
+  color: rgb(233, 227, 227);
+  font-size: 1.5rem;
+
+  display: none;
+  cursor: pointer;
+
+  /* posicionamos */
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  z-index: 500000;
+}
