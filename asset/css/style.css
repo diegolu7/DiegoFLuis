@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 
+
+
 body {
   background: rgb(131, 58, 180);
   background: linear-gradient(90deg, rgba(131, 58, 180, 1) 17%, rgba(252, 176, 69, 1) 100%);
 
+  background-repeat: no-repeat;
   font-family: 'Poppins',
     sans-serif;
   margin: 0px;
@@ -15,7 +18,7 @@ body {
   display: flex;
 
 
-  /* border: 1px solid red;*/
+
 }
 
 .content-main {
@@ -42,8 +45,8 @@ body {
 
 .main-text {
   color: #dbd4cf;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
   text-align: center;
 
 }
@@ -90,22 +93,22 @@ hr {
   text-align: center;
 }
 
+.child-page-listing {
+  width: 100%;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1em;
 
-  padding: 50px;
-
-  /* display: grid;
-  grid-template-columns: auto auto auto;
-
-  grid-template-rows: auto;
-  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
 
 
-  align-content: space-around;
-*/
+
 }
 
 .img-pro {
@@ -176,6 +179,12 @@ hr {
 
 
 /* FORM */
+.contacto {
+  width: 90%;
+
+  margin-right: 5%;
+  margin-left: 5%;
+}
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
@@ -206,7 +215,7 @@ textarea::placeholder {
 }
 
 input:focus::placeholder,
-textarea::focus:placeholder {
+textarea:focus:placeholder {
   color: #ffffff;
 }
 
@@ -260,6 +269,7 @@ input:hover::placeholder,
 textarea:hover::placeholder {
   color: #ffffff;
   font-size: 0.875em;
+
 }
 
 input:hover:focus::-ms-placeholder,
@@ -272,17 +282,18 @@ textarea:hover::focus:-ms-placeholder {
 
 #form {
   position: relative;
-  width: 500px;
-  margin: 50px auto 100px auto;
+  width: 100%;
+  margin-bottom: 2em;
+
 }
 
 input {
   font-family: 'Poppins',
     sans-serif;
   font-size: 0.875em;
-  width: 470px;
   height: 50px;
-  padding: 0px 15px 0px 15px;
+  width: 100%;
+
 
   background: transparent;
   outline: none;
@@ -295,6 +306,10 @@ input {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
+
+  box-sizing: border-box;
+
+
 }
 
 input:hover {
@@ -306,12 +321,16 @@ input:hover {
 }
 
 textarea {
-  width: 470px;
-  max-width: 470px;
+  box-sizing: border-box;
+
+  width: 100%;
+
   height: 110px;
   max-height: 110px;
-  padding: 15px;
+  /* padding: 15px; */
+  resize: none;
 
+  padding-top: 15px;
   background: transparent;
   outline: none;
 
@@ -335,13 +354,14 @@ textarea:hover {
   color: #ffffff;
   font-weight: 900;
 
+
 }
 
 #submit {
-  width: 502px;
+  width: 100%;
 
   padding: 0;
-  margin: -5px 0px 0px 0px;
+  margin: -6px 0px 0px 0px;
 
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
@@ -352,6 +372,8 @@ textarea:hover {
 
   border: solid 1px #ffffff;
   border-top: none;
+
+
 }
 
 #submit:hover {
@@ -361,6 +383,17 @@ textarea:hover {
 
 }
 
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+/* FOOTER */
 /* FOOTER */
 
 footer {
@@ -370,7 +403,6 @@ footer {
 }
 
 footer h4 {
-  margin-top: 25px;
   padding-bottom: 25px;
   text-align: center;
   color: #f3c4b6;
@@ -378,6 +410,8 @@ footer h4 {
   font-weight: 900;
   margin-top: 25px;
   background-color: #833AB4;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 footer .content-redes {
