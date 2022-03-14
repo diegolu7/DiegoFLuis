@@ -186,6 +186,15 @@ hr {
   margin-right: 5%;
   margin-left: 5%;
 }
+@media only screen AND (min-width:1024px) {
+.contacto {
+  width: 30%;
+
+  margin-right: 35%;
+  margin-left: 35%;
+}
+
+}
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
