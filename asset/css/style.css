@@ -13,13 +13,13 @@ body {
   padding: 0px;
   box-sizing: border-box;
 }
-*/
+/*
 .main {
   display: flex;*/
 
 
 
-}
+ 
 
 .content-main {
   display: flex;
@@ -58,6 +58,7 @@ hr {
 .tec-title {
   color: #EAD6BE;
   text-align: center;
+  
 }
 
 .grid-content {
@@ -84,9 +85,7 @@ hr {
 .icon:hover {
   color: #f3c4b6;
 
-  transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
+  
 }
 
 .proyectos-title {
