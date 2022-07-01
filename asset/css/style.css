@@ -5,7 +5,7 @@
 body {
   background: rgb(131, 58, 180);
   background: linear-gradient(90deg, rgba(131, 58, 180, 1) 17%, rgba(252, 176, 69, 1) 100%);
-
+  background: linear-gradient(90deg, rgba(55, 00, 180, 1) 17%, rgba(252, 50, 69, 1) 100%);
   background-repeat: no-repeat;
   font-family: 'Poppins',
     sans-serif;
